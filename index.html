@@ -1,0 +1,158 @@
+<!-- source: https://dribbble.com/shots/8268096
+
+  
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <div class="main-box">
+    <div class="box main-header">
+      <div class="box current-weather-box">
+        <div class="box weather-icon-box">
+          <img src="sun.svg" alt="">
+        </div>
+        <div class="box temp-box">
+          31°
+        </div>
+      </div>
+      <div class="location-info">
+        <h2>Singapore</h2>
+        <p>Country in Asia</p>
+      </div>
+    </div><!-- end main-header -->
+
+    <div class="more-information row">
+      <div class="3-day-box col-3">
+        <h2><span>3 Days</span> Forecast</h2>
+        <div class="box days">
+          <div class="day-icon center"><img src="rain.svg" alt=""></div>
+          <div class="center block">
+            <div class="day">Friday</div>
+            <div class="day-condition">Rain</div>
+          </div>
+
+          <div class="box day-1-temp-box center day-temp-box">32°/23°</div>
+        </div>
+
+        <div class="box days ">
+          <div class="day-icon center">
+            <img src="sun.svg" alt=""></div>
+          <div class="center block">
+            <div class="day">Saturday</div>
+            <div class="day-condition">Clear</div>
+          </div>
+
+          <div class="box day-temp-box center">34°/24°</div>
+        </div>
+
+        <div class="box days">
+          <div class="day-icon center"><img src="sunny.svg" alt=""></div>
+          <div class="center block">
+            <div class="day">Sunday</div>
+            <div class="day-condition">Cloudy</div>
+
+          </div>
+
+          <div class="box day-temp-box center">31°/23°</div>
+        </div>
+
+      </div><!-- end 3 days -->
+
+      <div class="places col-6">
+        <div class="row">
+          <div class="col-6">
+            <h2><span>Places to </span>Visit</h2>
+            <div class="box place-1-box">
+              <h3>Arab Street Singapore</h3>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="reviews"> <span>+ Top Reviews</span>
+              <div class="r-box box"></div>
+              <div class="r-box box"></div>
+              <div class="r-box box"></div>
+            </div>
+
+            <div class="box place-2-box">
+              <h3>Art Science Museum</h3>
+            </div>
+            <div class="box place-3-box">
+              <h3>Fountain of Wealth</h3>
+              <div class="add-btn box center">+</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end places -->
+
+      <div class="locations col-3">
+        <div class="box location-1">
+          <div class="row">
+            <div class="location-condition box"><img src="sun.svg" alt=""></div>
+            <div class="location-temp">29°</div>
+            <div class="location-name">
+              <div class="city">Kuala Lumpur</div>
+              <div class="country">Malaysia</div>
+            </div>
+          </div>
+          <div class="row details">
+            <div class="col-4 detail">Humidity 64%</div>
+            <div class="col-4 detail">Northweast</div>
+            <div class="col-4 detail">8.3km/h</div>
+          </div>
+        </div>
+
+        <div class="box location-2">
+          <div class="row">
+            <div class="location-condition box"><img src="sun.svg" alt=""></div>
+            <div class="location-temp">12°</div>
+            <div class="location-name">
+              <div class="city">New York</div>
+              <div class="country">United States</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 detail">Humidity 48%</div>
+            <div class="col-4 detail">weast</div>
+            <div class="col-4 detail">9.3km/h</div>
+          </div>
+        </div>
+
+        <div class="box add-location">
+          <div class="row ">
+            <div class="btn box">Add locaitons</div>
+          </div>
+          <div class="row"> <img src="location.svg" class="location-img" alt="add location"></div>
+        </div>
+
+      </div><!-- end locations -->
+    </div><!-- end more-information -->
+
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
